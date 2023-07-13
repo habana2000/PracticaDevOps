@@ -13,7 +13,7 @@ Práctica del módulo de Servidores y DevOps
 * Repositorio práctica Backend-NodeJS: _https://github.com/KeepCodingWeb14/PracticaNodeJSDevOps.git_
 * URL de la práctica desplegada: _http://ec2-52-204-149-101.compute-1.amazonaws.com/_
 * Cuenta GitHub: **habana2000**
-* 
+
 
 # Trabajo
 
@@ -64,7 +64,7 @@ npm start
 ### Instalar PM2
 * URL: _https://pm2.io/_
 
-![Sample](images/PM2.png)
+!DashboardPM2](images/PM2.PNG)
 
 ### Configuración nginx
 * Editar fichero en sites-enable
@@ -95,7 +95,7 @@ server {
 }
 ```
 
-![Sample](images/STATIC-nginx.png)
+![FicherosEstaticos](images/STATIC-nginx.PNG)
 
 # Requerimientos práctica - Ejercicio 2
 * Plataforma: AWS
@@ -114,7 +114,7 @@ server {
 ![AccesoDominio](images/AccesoDomino.PNG)
 
 ### Acceso por IP
-![AccesoIP](images/AccesoIP.png)
+![AccesoIP](images/AccesoIP.PNG)
 
 
 
