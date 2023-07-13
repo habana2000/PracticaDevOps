@@ -8,10 +8,10 @@ Práctica del módulo de Servidores y DevOps
 * Ejercicio 2 --> _http://52.204.149.101/_
 
 
-# Requerimientos práctica
+# Requerimientos práctica - Ejercicio 1
 * Plataforma: AWS
-* Repositorio práctica Backen-NodeJS: _https://github.com/KeepCodingWeb14/PracticaNodeJSDevOps.git_
-* URL de la práctica desplegada: ...
+* Repositorio práctica Backend-NodeJS: _https://github.com/KeepCodingWeb14/PracticaNodeJSDevOps.git_
+* URL de la práctica desplegada: _http://ec2-52-204-149-101.compute-1.amazonaws.com/_
 * Cuenta GitHub: **habana2000**
 * 
 
@@ -97,9 +97,24 @@ server {
 
 ![Sample](images/STATIC-nginx.png)
 
+# Requerimientos práctica - Ejercicio 2
+* Plataforma: AWS
+* Repositorio práctica FundamentosReact: _https://github.com/habana2000/PracticaFundamentosReact.git_
+* URL de la práctica desplegada: _http://52.204.149.101/_
 
 
+## Preprativos
+* npm run build del proyecto
+* ubimos el directorio build al servidor: `scp -r -i /d/_dummy/practica.pem build ubuntu@52.204.149.101:/home/ubuntu`
+* Muevo la carpeta a /var/www: `sudo mv build /var/www/react-anuncios`
+* Configuramos fichero en /etcnginx/sites-available y lincamos en sites_enabled
+* reiniciamos nginx
 
+### Acceso por dominio AWS
+![AccesoDominio](images/AccesoDomino.PNG)
+
+### Acceso por IP
+![AccesoIP](images/AccesoIP.png)
 
 
 
