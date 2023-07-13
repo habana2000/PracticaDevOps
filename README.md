@@ -64,7 +64,7 @@ npm start
 ### Instalar PM2
 * URL: _https://pm2.io/_
 
-!DashboardPM2](images/PM2.PNG)
+![DashboardPM2](images/PM2.PNG)
 
 ### Configuración nginx
 * Editar fichero en sites-enable
